@@ -1,0 +1,913 @@
+﻿[2016.02.07-09.36.51:318][  0]Log file open, 02/07/16 18:36:51
+[2016.02.07-09.36.51:318][  0]LogInit:Display: Running engine for game: DJYamabiko
+[2016.02.07-09.36.51:318][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.07-09.36.51:318][  0]LogInit:Display: RandInit(-51291891) SRandInit(-51291889).
+[2016.02.07-09.36.51:318][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.07-09.36.51:318][  0]LogStats: Stats thread started at 0.056586
+[2016.02.07-09.36.51:318][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.07-09.36.51:318][  0]LogInit: API Version: 2758231
+[2016.02.07-09.36.51:318][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.07-09.36.51:319][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.07-09.36.51:319][  0]LogInit: Build Configuration: Development
+[2016.02.07-09.36.51:319][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.07-09.36.51:319][  0]LogInit: Command line: 
+[2016.02.07-09.36.51:319][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.07-09.36.51:319][  0]LogInit: Rocket: 1
+[2016.02.07-09.36.51:323][  0]LogInit: Using libcurl 7.41.0
+[2016.02.07-09.36.51:323][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.07-09.36.51:323][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.07-09.36.51:323][  0]LogInit:  - other features:
+[2016.02.07-09.36.51:323][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.07-09.36.51:323][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.07-09.36.51:323][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.07-09.36.51:323][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.07-09.36.51:323][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.07-09.36.51:323][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.07-09.36.51:323][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.07-09.36.51:323][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.07-09.36.51:323][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.07-09.36.51:323][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.07-09.36.51:328][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.07-09.36.51:334][  0]LogInit: Object subsystem initialized
+[2016.02.07-09.36.51:335][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.07-09.36.51:335][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.07-09.36.51:348][  0]LogInit: Computer: DESKTOP-6H4BEHG
+[2016.02.07-09.36.51:348][  0]LogInit: User: kotaoue
+[2016.02.07-09.36.51:348][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.07-09.36.51:348][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2016.02.07-09.36.51:348][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.07-09.36.51:348][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.07-09.36.51:348][  0]LogMemory: Process Physical Memory: 55.99 MB used, 55.99 MB peak
+[2016.02.07-09.36.51:348][  0]LogMemory: Process Virtual Memory: 57.50 MB used, 57.50 MB peak
+[2016.02.07-09.36.51:348][  0]LogMemory: Physical Memory: 4236.04 MB used, 8115.96 MB total
+[2016.02.07-09.36.51:348][  0]LogMemory: Virtual Memory: 382.29 MB used, 134217728.00 MB total
+[2016.02.07-09.36.51:379][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (816077464) Localized String: (偽)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (816077464) Localized String: (false)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-942328987) Localized String: (真)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-942328987) Localized String: (true)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ロープ再生するようにしますか？)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2016.02.07-09.36.51:466][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2016.02.07-09.36.51:717][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 520 (Feature Level 11_0)
+[2016.02.07-09.36.51:717][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 1 output[s]
+[2016.02.07-09.36.51:719][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.07-09.36.51:719][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 0 output[s]
+[2016.02.07-09.36.51:719][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.07-09.36.51:723][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.07-09.36.51:723][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.07-09.36.51:729][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.07-09.36.51:733][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Intermediate/Shaders/WorkingDirectory/1964/).
+[2016.02.07-09.36.51:734][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kotaoue/AppData/Local/Temp/UnrealShaderWorkingDir/9E5F4A7A4735AFD4018F3E8AF3D301E0/'.
+[2016.02.07-09.36.51:734][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.07-09.36.52:537][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.07-09.36.52:544][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.07-09.36.52:550][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.07-09.36.52:555][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.07-09.36.52:559][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.07-09.36.52:562][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.07-09.36.52:565][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.07-09.36.52:568][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.07-09.36.52:571][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.07-09.36.52:574][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.07-09.36.52:576][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.07-09.36.52:583][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.07-09.36.52:583][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.07-09.36.52:583][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.07-09.36.52:600][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.07-09.36.52:602][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.07-09.36.52:605][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.07-09.36.52:608][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.07-09.36.52:608][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.07-09.36.52:666][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.07-09.36.52:711][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/kotaoue/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.07-09.36.52:711][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kotaoue/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.07-09.36.52:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.07-09.36.52:711][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.07-09.36.52:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.07-09.36.52:711][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.07-09.36.52:780][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.07-09.36.52:792][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kotaoue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.07-09.36.52:960][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.07-09.36.52:962][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.07-09.36.53:067][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.07-09.36.53:067][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.07-09.36.53:298][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.07-09.36.53:913][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.07-09.36.54:044][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.02.07-09.36.54:206][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.02.07-09.36.54:207][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.02.07-09.36.54:217][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.02.07-09.36.54:225][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.02.07-09.36.54:412][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.07-09.36.54:412][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.07-09.36.54:465][  0]LogEngine: Initializing Engine...
+[2016.02.07-09.36.54:468][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.07-09.36.54:468][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.07-09.36.54:581][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.07-09.36.54:585][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-09.36.54:681][  0]LogInit: FAudioDevice initialized.
+[2016.02.07-09.36.54:731][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/kotaoue/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.07-09.36.54:741][  0]LogInit: Texture streaming: Enabled
+[2016.02.07-09.36.54:749][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.07-09.36.54:750][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.07-09.36.54:750][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e6a45628499ebad7e50ee59e90a624e2|e9f0bced813a41ad9e36b4a9379bc38d|b25a5126-ec2c-468a-9d1d-b80f0e81c3bf
+[2016.02.07-09.36.54:750][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.07-09.36.54:761][  0]LogInit: Transaction tracking system initialized
+[2016.02.07-09.36.54:782][  0]BlueprintLog: New page: エディタの読み込み
+[2016.02.07-09.36.54:985][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2016.02.07-09.36.55:045][  0]LogConsoleResponse:Display: 
+[2016.02.07-09.36.55:180][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.07-09.36.55:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/' took 0.02s
+[2016.02.07-09.36.55:233][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.02.07-09.36.55:233][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.07-09.36.55:238][  0]LightingResults: New page: ライティングのビルド
+[2016.02.07-09.36.55:240][  0]MapCheck: New page: マップをチェック
+[2016.02.07-09.36.55:240][  0]LightingResults: New page: <何も選択されていません>
+[2016.02.07-09.36.55:261][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D3FE9F740
+[2016.02.07-09.36.56:056][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-09.36.56:066][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.07-09.36.56:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.07-09.36.56:136][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 67.814ミリ秒かかりました。
+[2016.02.07-09.36.56:136][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.903
+[2016.02.07-09.36.56:301][  0]LogCollectionManager: Loaded 0 collections in 0.001588 seconds
+[2016.02.07-09.36.56:365][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Collections/' took 0.01s
+[2016.02.07-09.36.56:365][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/Developers/kotaoue/Collections/' took 0.01s
+[2016.02.07-09.36.56:365][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/Collections/' took 0.01s
+[2016.02.07-09.36.56:365][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.07-09.36.56:375][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 1893 classes and 338 folders.
+[2016.02.07-09.36.56:389][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.07-09.36.56:729][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.07-09.36.56:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.07-09.36.56:840][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.07-09.36.56:856][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2016.02.07-09.36.56:880][  0]LogLoad: Full Startup: 5.96 seconds (BP compile: 0.05 seconds)
+[2016.02.07-09.36.56:914][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.02.07-09.36.56:915][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.02.07-09.36.56:922][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.07-09.36.57:047][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.07-09.36.57:205][  0]LogRenderer: Reallocating scene render targets to support 944x520 (Frame:2).
+[2016.02.07-09.36.58:502][  4]LogAssetRegistry: Asset discovery search completed in 4.4688 seconds
+[2016.02.07-09.36.58:502][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.02.07-09.36.58:502][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.02.07-09.37.07:812][477]LogTexture:Display: テクスチャをビルド中: Texture2D_2 (G8)
+[2016.02.07-09.37.11:195][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.02.07-09.37.51:829][732]LogLinker:Warning: ファイル '/Game/RollingBP/Materials/PM_Ball' が見つかりません
+[2016.02.07-09.37.51:830][732]LogLinker:Warning: ファイル '/Game/RollingBP/Materials/PM_Ball' が見つかりません
+[2016.02.07-09.37.51:830][732]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/RollingBP/Materials/PM_Ball.PM_Ball' が見つかりませんでした
+[2016.02.07-09.37.53:595][838]LogLinker:Warning: ファイル '/Game/RollingBP/Materials/M_Blue_Checker' が見つかりません
+[2016.02.07-09.37.53:595][838]LogLinker:Warning: ファイル '/Game/RollingBP/Materials/M_Blue_Checker' が見つかりません
+[2016.02.07-09.37.53:595][838]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/RollingBP/Materials/M_Blue_Checker.M_Blue_Checker' が見つかりませんでした
+[2016.02.07-09.37.55:540][954]LogLinker:Warning: ファイル '/Game/RollingBP/Meshes/BallMesh' が見つかりません
+[2016.02.07-09.37.55:541][954]LogLinker:Warning: ファイル '/Game/RollingBP/Meshes/BallMesh' が見つかりません
+[2016.02.07-09.37.55:541][954]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/RollingBP/Meshes/BallMesh.BallMesh' が見つかりませんでした
+[2016.02.07-09.38.35:119][997]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.07-09.38.35:690][997]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.02.07-09.40.14:041][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/RollingOverview" FILE="../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/RollingOverview.uasset" SILENT=true
+[2016.02.07-09.40.14:063][801]LogSavePackage: Save=8.335302ms
+[2016.02.07-09.40.14:063][801]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/RollingOverview7D4891C74D608F082E01FAABF49A8094.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/RollingOverview.uasset'
+[2016.02.07-09.40.14:065][801]LogSavePackage: Total save time: 21.316890ms
+[2016.02.07-09.40.14:065][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/RollingOverview.uasset
+[2016.02.07-09.43.29:741][724]LogRenderer: Reallocating scene render targets to support 944x820 (Frame:1942).
+[2016.02.07-09.43.48:898][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-09.43.48:898][210]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.07-09.43.48:913][210]LogPlayLevel: [PlayLevel] Compiling PhysicsBallBP before play...
+[2016.02.07-09.43.48:983][210]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2016.02.07-09.43.49:021][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D32C70680
+[2016.02.07-09.43.49:030][210]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 3:43:49)
+[2016.02.07-09.43.49:030][210]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-09.43.49:067][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036683s)
+[2016.02.07-09.43.49:067][210]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-09.43.49:067][210]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2016.02.07-09.43.49:067][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.037949s)
+[2016.02.07-09.43.49:108][210]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-09.43.49:114][210]LogInit: FAudioDevice initialized.
+[2016.02.07-09.43.49:183][210]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-09.43.49:195][210]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-18.43.49
+[2016.02.07-09.43.49:195][210]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-09.43.49:195][210]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-09.43.49:196][210]LogWorld: Bringing up level for play took: 0.012651
+[2016.02.07-09.43.49:216][210]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 1.208のプレイ イン エディタの開始時間
+[2016.02.07-09.43.49:216][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-09.43.57:510][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-09.43.57:608][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-09.43.57:664][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6CEA40E0
+[2016.02.07-09.47.05:807][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D3239EC00
+[2016.02.07-09.47.10:059][264]LogSavePackage: Save=4165.342773ms
+[2016.02.07-09.47.10:059][264]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/RollingBPExampleMap_Auto1338124A64758A7FBC718CD8748537AC8.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto1.umap'
+[2016.02.07-09.47.10:085][264]LogSavePackage: Total save time: 4269.590899ms
+[2016.02.07-09.47.10:085][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto1.umap
+[2016.02.07-09.47.10:091][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 4.321
+[2016.02.07-09.47.10:091][264]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.321
+[2016.02.07-09.47.10:097][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/PhysicsBallBP] ([1] browsable assets)...
+[2016.02.07-09.47.10:150][264]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP]
+[2016.02.07-09.47.10:150][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/PhysicsBallBP]
+[2016.02.07-09.47.10:229][264]LogSavePackage: Save=72.358902ms
+[2016.02.07-09.47.10:229][264]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/PhysicsBallBP_Auto14EDF2BD44783C62B7802FBA117AC96D6.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto1.uasset'
+[2016.02.07-09.47.10:230][264]LogSavePackage: Total save time: 77.858150ms
+[2016.02.07-09.47.10:230][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto1.uasset
+[2016.02.07-09.47.10:230][264]LogFileHelpers: Auto-saving content packages took 0.137
+[2016.02.07-09.49.40:274][259]LogWindows: LaunchFileInExternalEditor C:/Program Files (x86)/Epic Games/4.10/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h 
+[2016.02.07-09.49.40:379][259]LogWindows: Launch application code for C:/Program Files (x86)/Epic Games/4.10/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h : 42
+[2016.02.07-09.49.40:379][259]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.02.07-09.49.40:381][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:381][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:382][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:383][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:392][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:392][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:392][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:393][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:393][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:397][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:414][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:414][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.49.40:423][259]LogVSAccessor:Warning: Couldn't access module table
+[2016.02.07-09.59.29:441][449]LogEditorViewport: Clicking on Actor (LMB): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-09.59.37:360][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-09.59.39:784][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-09.59.41:308][101]Cmd: TRANSACTION UNDO
+[2016.02.07-09.59.41:308][101]LogEditorTransaction: Undo アクタをクリック
+[2016.02.07-10.00.05:469][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.00.23:442][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.00.34:870][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.00.35:947][317]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground)
+[2016.02.07-10.00.47:474][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.01.01:744][425]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.07-10.01.13:429][108]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.07-10.01.39:818][209]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.01.43:142][395]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.07-10.01.58:506][ 65]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2016.02.07-10.01.59:942][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_70)
+[2016.02.07-10.02.03:234][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.02.04:409][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.02.05:339][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_4)
+[2016.02.07-10.02.06:695][499]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.02.14:479][804]LogEditorViewport: Clicking on Actor (LMB): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.02.15:105][830]LogEditorViewport: Clicking on Actor (LMB): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.02.15:850][870]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.02.17:466][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.02.19:353][ 53]LogEditorViewport: Clicking on Actor (LMB): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.03.43:402][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.04.56:222][418]LogEditorViewport: Clicking on Actor (LMB): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.05.24:632][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.05.24:632][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.05.24:632][ 73]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:05:24)
+[2016.02.07-10.05.24:632][ 73]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.05.24:667][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035406s)
+[2016.02.07-10.05.24:668][ 73]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.05.24:669][ 73]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2016.02.07-10.05.24:669][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.036907s)
+[2016.02.07-10.05.24:739][ 73]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.05.24:745][ 73]LogInit: FAudioDevice initialized.
+[2016.02.07-10.05.24:775][ 73]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.05.24:784][ 73]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.05.24
+[2016.02.07-10.05.24:784][ 73]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.05.24:784][ 73]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.05.24:786][ 73]LogWorld: Bringing up level for play took: 0.009306
+[2016.02.07-10.05.24:787][ 73]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.778のプレイ イン エディタの開始時間
+[2016.02.07-10.05.24:787][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.05.34:528][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.05.34:601][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.05.34:648][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6D3EC2C0
+[2016.02.07-10.06.03:391][895]LogSavePackage: Save=3559.314697ms
+[2016.02.07-10.06.03:391][895]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/RollingBPExampleMap_Auto2E19F030948E85E0C3FAB53982351FB7E.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto2.umap'
+[2016.02.07-10.06.03:418][895]LogSavePackage: Total save time: 3613.618229ms
+[2016.02.07-10.06.03:418][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto2.umap
+[2016.02.07-10.06.03:420][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 3.657
+[2016.02.07-10.06.03:420][895]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.657
+[2016.02.07-10.15.10:566][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.15.10:566][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.15.10:567][224]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:15:10)
+[2016.02.07-10.15.10:567][224]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.15.10:599][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032445s)
+[2016.02.07-10.15.10:600][224]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.15.10:600][224]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2016.02.07-10.15.10:600][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.033661s)
+[2016.02.07-10.15.10:666][224]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.15.10:672][224]LogInit: FAudioDevice initialized.
+[2016.02.07-10.15.10:709][224]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.15.10:718][224]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.15.10
+[2016.02.07-10.15.10:718][224]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.15.10:718][224]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.15.10:719][224]LogWorld: Bringing up level for play took: 0.008740
+[2016.02.07-10.15.10:720][224]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.711のプレイ イン エディタの開始時間
+[2016.02.07-10.15.10:720][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.15.19:229][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.15.19:357][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.15.19:425][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D71D55B20
+[2016.02.07-10.16.09:853][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.16.09:853][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.16.09:853][986]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:16:09)
+[2016.02.07-10.16.09:853][986]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.16.09:884][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030345s)
+[2016.02.07-10.16.09:885][986]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.16.09:885][986]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2016.02.07-10.16.09:886][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.031622s)
+[2016.02.07-10.16.09:953][986]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.16.09:958][986]LogInit: FAudioDevice initialized.
+[2016.02.07-10.16.09:998][986]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.16.10:010][986]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.16.10
+[2016.02.07-10.16.10:010][986]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.16.10:010][986]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.16.10:010][986]LogWorld: Bringing up level for play took: 0.011625
+[2016.02.07-10.16.10:011][986]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.003のプレイ イン エディタの開始時間
+[2016.02.07-10.16.10:011][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.16.20:311][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.16.20:403][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.16.20:463][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D7427C860
+[2016.02.07-10.17.51:969][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.17.51:969][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.17.51:969][942]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:17:51)
+[2016.02.07-10.17.51:969][942]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.17.52:002][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033040s)
+[2016.02.07-10.17.52:003][942]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.17.52:003][942]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2016.02.07-10.17.52:003][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.034168s)
+[2016.02.07-10.17.52:073][942]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.17.52:079][942]LogInit: FAudioDevice initialized.
+[2016.02.07-10.17.52:111][942]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.17.52:120][942]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.17.52
+[2016.02.07-10.17.52:120][942]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.17.52:120][942]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.17.52:121][942]LogWorld: Bringing up level for play took: 0.008985
+[2016.02.07-10.17.52:121][942]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.113のプレイ イン エディタの開始時間
+[2016.02.07-10.17.52:122][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.18.07:316][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.18.07:410][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.18.07:467][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6CE95080
+[2016.02.07-10.18.11:974][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.18.12:681][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.18.46:609][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2016.02.07-10.18.48:036][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube6)
+[2016.02.07-10.18.49:137][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2016.02.07-10.18.51:321][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.18.52:676][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube24)
+[2016.02.07-10.18.58:818][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.18.59:741][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube23)
+[2016.02.07-10.19.20:528][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.19.20:528][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.19.20:528][869]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:19:20)
+[2016.02.07-10.19.20:528][869]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.19.20:558][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029997s)
+[2016.02.07-10.19.20:559][869]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.19.20:559][869]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2016.02.07-10.19.20:559][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.031419s)
+[2016.02.07-10.19.20:598][869]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.19.20:604][869]LogInit: FAudioDevice initialized.
+[2016.02.07-10.19.20:641][869]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.19.20:651][869]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.19.20
+[2016.02.07-10.19.20:651][869]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.19.20:651][869]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.19.20:652][869]LogWorld: Bringing up level for play took: 0.010803
+[2016.02.07-10.19.20:653][869]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.645のプレイ イン エディタの開始時間
+[2016.02.07-10.19.20:653][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.19.30:391][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.19.30:511][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.19.30:593][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6CF768E0
+[2016.02.07-10.19.32:862][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube13)
+[2016.02.07-10.19.33:120][350]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.19.34:913][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2016.02.07-10.19.41:843][683]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground)
+[2016.02.07-10.19.44:134][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.19.44:982][850]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground)
+[2016.02.07-10.19.45:897][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_29)
+[2016.02.07-10.19.57:498][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.20.00:281][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.20.05:808][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_28)
+[2016.02.07-10.20.14:374][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_70)
+[2016.02.07-10.20.22:747][550]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.20.42:519][696]Cmd: STAT FPS
+[2016.02.07-10.20.55:600][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_37)
+[2016.02.07-10.21.14:981][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.21.15:996][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_67)
+[2016.02.07-10.21.24:305][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_65)
+[2016.02.07-10.21.47:273][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.21.47:274][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.21.47:274][542]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:21:47)
+[2016.02.07-10.21.47:274][542]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.21.47:332][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057961s)
+[2016.02.07-10.21.47:333][542]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.21.47:334][542]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2016.02.07-10.21.47:334][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.059479s)
+[2016.02.07-10.21.47:378][542]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.21.47:384][542]LogInit: FAudioDevice initialized.
+[2016.02.07-10.21.47:416][542]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.21.47:424][542]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.21.47
+[2016.02.07-10.21.47:424][542]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.21.47:424][542]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.21.47:425][542]LogWorld: Bringing up level for play took: 0.008530
+[2016.02.07-10.21.47:426][542]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.583のプレイ イン エディタの開始時間
+[2016.02.07-10.21.47:426][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.40:108][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.40:193][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.40:268][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6C1271A0
+[2016.02.07-10.22.47:333][687]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2016.02.07-10.22.47:825][698]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.22.48:787][727]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.22.49:827][759]Cmd: SELECT NONE
+[2016.02.07-10.22.53:582][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.53:582][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.22.53:582][907]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:22:53)
+[2016.02.07-10.22.53:582][907]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.22.53:613][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030111s)
+[2016.02.07-10.22.53:614][907]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.22.53:614][907]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2016.02.07-10.22.53:614][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.031397s)
+[2016.02.07-10.22.53:651][907]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.22.53:656][907]LogInit: FAudioDevice initialized.
+[2016.02.07-10.22.53:693][907]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.22.53:701][907]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.22.53
+[2016.02.07-10.22.53:701][907]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.22.53:701][907]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.22.53:702][907]LogWorld: Bringing up level for play took: 0.008370
+[2016.02.07-10.22.53:703][907]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.306のプレイ イン エディタの開始時間
+[2016.02.07-10.22.53:703][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.54:860][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.54:947][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.22.55:027][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6D3EFBA0
+[2016.02.07-10.23.27:934][718]LogSavePackage: Save=3567.745361ms
+[2016.02.07-10.23.27:934][718]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/RollingBPExampleMap_Auto3C91189DD4810534FE69C9AB5919CDF8A.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto3.umap'
+[2016.02.07-10.23.27:961][718]LogSavePackage: Total save time: 3627.786823ms
+[2016.02.07-10.23.27:961][718]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto3.umap
+[2016.02.07-10.23.27:963][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 3.671
+[2016.02.07-10.23.27:963][718]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.671
+[2016.02.07-10.23.34:161][773]LogSavePackage: Save=3594.706787ms
+[2016.02.07-10.23.34:161][773]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/RollingBPExampleMap83074ADB4076E05D44A079822BA969BC.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2016.02.07-10.23.34:169][773]LogSavePackage: Total save time: 3604.111601ms
+[2016.02.07-10.23.34:169][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2016.02.07-10.23.34:218][773]LogFileHelpers: Saving map 'RollingBPExampleMap' took 3.756
+[2016.02.07-10.23.34:293][773]LogSavePackage: Save=63.094051ms
+[2016.02.07-10.23.34:293][773]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/PhysicsBallBP3A1552F442B5A6B17A288A90FFF42C63.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2016.02.07-10.23.34:298][773]LogSavePackage: Total save time: 73.300485ms
+[2016.02.07-10.23.34:298][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2016.02.07-10.23.54:508][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.24.48:948][545]LogRenderer: Reallocating scene render targets to support 1500x960 (Frame:14998).
+[2016.02.07-10.25.18:633][915]LogEditorViewport: Clicking on Actor (LMB): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.25.22:159][973]LogEditorViewport: Clicking on Actor (context menu): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.25.23:814][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.25.29:549][171]LogEditorViewport: Clicking on Actor (double click): PhysicsBallBP_C (PhysicsBallBP)
+[2016.02.07-10.26.18:149][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube26)
+[2016.02.07-10.26.19:143][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube26)
+[2016.02.07-10.26.40:443][849]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.26.43:621][920]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube26)
+[2016.02.07-10.26.45:084][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2016.02.07-10.26.45:950][ 14]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.26.47:855][ 59]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.07-10.26.49:902][107]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube25)
+[2016.02.07-10.27.06:339][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube28)
+[2016.02.07-10.27.14:917][598]Cmd: TRANSACTION UNDO
+[2016.02.07-10.27.14:917][598]LogEditorTransaction: Undo アクタ を移動
+[2016.02.07-10.27.20:958][764]Cmd: TRANSACTION UNDO
+[2016.02.07-10.27.20:958][764]LogEditorTransaction: Undo アクタ を移動
+[2016.02.07-10.27.25:571][900]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2016.02.07-10.28.07:973][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube6)
+[2016.02.07-10.28.26:226][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.28.26:226][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.28.26:227][817]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:28:26)
+[2016.02.07-10.28.26:227][817]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.28.26:275][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048396s)
+[2016.02.07-10.28.26:276][817]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.28.26:276][817]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2016.02.07-10.28.26:277][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.050143s)
+[2016.02.07-10.28.26:332][817]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.28.26:339][817]LogInit: FAudioDevice initialized.
+[2016.02.07-10.28.26:371][817]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.28.26:380][817]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.28.26
+[2016.02.07-10.28.26:380][817]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.28.26:380][817]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.28.26:380][817]LogWorld: Bringing up level for play took: 0.008266
+[2016.02.07-10.28.26:381][817]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.373のプレイ イン エディタの開始時間
+[2016.02.07-10.28.26:381][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.28.34:264][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.28.34:392][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.28.34:428][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6D585760
+[2016.02.07-10.28.35:701][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_26)
+[2016.02.07-10.28.40:583][223]MapCheck: New page: マップをチェック
+[2016.02.07-10.28.40:635][223]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.07-10.28.40:636][223]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.07-10.28.40:712][223]MapCheck:Warning: 警告 WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.02.07-10.28.40:713][223]LogStats:          STAT_HLOD_BuildClusters - 36.450 ms
+[2016.02.07-10.28.40:714][223]LightingResults: New page: ライティングのビルド - 2016/02/08 4:28:40
+[2016.02.07-10.28.44:045][223]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.07-10.28.44:045][223]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.07-10.28.44:045][223]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.07-10.28.44:045][223]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.07-10.28.44:045][223]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.07-10.28.44:266][223]LogEditorBuildUtils: Build time 0:00:03
+[2016.02.07-10.28.44:282][223]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_91, compiling. 
+[2016.02.07-10.28.44:296][223]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_91, compiling. 
+[2016.02.07-10.28.44:425][224]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2016.02.07-10.28.44:432][224]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2016.02.07-10.28.44:527][225]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2016.02.07-10.28.44:533][225]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2016.02.07-10.28.44:581][226]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GrayMaterial, compiling. 
+[2016.02.07-10.28.44:589][226]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GrayMaterial, compiling. 
+[2016.02.07-10.28.44:629][227]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.02.07-10.28.44:639][227]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.02.07-10.30.07:365][629]Job is a success!
+[2016.02.07-10.30.10:129][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_1 (AutoDXT)
+[2016.02.07-10.30.11:432][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_22 (DXT1)
+[2016.02.07-10.30.11:436][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_22 (AutoDXT)
+[2016.02.07-10.30.11:437][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_22 (AutoDXT)
+[2016.02.07-10.30.11:441][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_21 (DXT1)
+[2016.02.07-10.30.11:465][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_21 (AutoDXT)
+[2016.02.07-10.30.11:502][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_21 (AutoDXT)
+[2016.02.07-10.30.11:525][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_20 (DXT1)
+[2016.02.07-10.30.11:552][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_20 (AutoDXT)
+[2016.02.07-10.30.11:607][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_20 (AutoDXT)
+[2016.02.07-10.30.11:650][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_19 (DXT1)
+[2016.02.07-10.30.11:692][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_19 (AutoDXT)
+[2016.02.07-10.30.11:779][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_19 (AutoDXT)
+[2016.02.07-10.30.11:828][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_18 (DXT1)
+[2016.02.07-10.30.11:871][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_18 (AutoDXT)
+[2016.02.07-10.30.11:949][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_18 (AutoDXT)
+[2016.02.07-10.30.12:062][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_17 (DXT1)
+[2016.02.07-10.30.12:142][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_17 (AutoDXT)
+[2016.02.07-10.30.12:239][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_17 (AutoDXT)
+[2016.02.07-10.30.12:304][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_16 (DXT1)
+[2016.02.07-10.30.12:402][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_16 (AutoDXT)
+[2016.02.07-10.30.12:610][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_16 (AutoDXT)
+[2016.02.07-10.30.12:751][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_15 (DXT1)
+[2016.02.07-10.30.12:820][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_15 (AutoDXT)
+[2016.02.07-10.30.12:917][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_15 (AutoDXT)
+[2016.02.07-10.30.13:004][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_14 (DXT1)
+[2016.02.07-10.30.13:059][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_14 (AutoDXT)
+[2016.02.07-10.30.13:133][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_14 (AutoDXT)
+[2016.02.07-10.30.13:189][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_13 (DXT1)
+[2016.02.07-10.30.13:271][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_13 (AutoDXT)
+[2016.02.07-10.30.13:469][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_13 (AutoDXT)
+[2016.02.07-10.30.13:528][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_12 (DXT1)
+[2016.02.07-10.30.13:567][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_12 (AutoDXT)
+[2016.02.07-10.30.13:633][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_12 (AutoDXT)
+[2016.02.07-10.30.13:669][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_11 (DXT1)
+[2016.02.07-10.30.13:700][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_11 (AutoDXT)
+[2016.02.07-10.30.13:770][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_11 (AutoDXT)
+[2016.02.07-10.30.13:800][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_10 (DXT1)
+[2016.02.07-10.30.13:850][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_10 (AutoDXT)
+[2016.02.07-10.30.14:006][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_10 (AutoDXT)
+[2016.02.07-10.30.14:226][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_1_9 (DXT1)
+[2016.02.07-10.30.14:485][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap1_9 (AutoDXT)
+[2016.02.07-10.30.14:737][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion1_9 (AutoDXT)
+[2016.02.07-10.30.14:853][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_8 (DXT1)
+[2016.02.07-10.30.15:291][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_8 (AutoDXT)
+[2016.02.07-10.30.15:905][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_8 (AutoDXT)
+[2016.02.07-10.30.16:082][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_7 (DXT1)
+[2016.02.07-10.30.16:432][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_7 (AutoDXT)
+[2016.02.07-10.30.17:613][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_7 (AutoDXT)
+[2016.02.07-10.30.18:075][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_6 (DXT1)
+[2016.02.07-10.30.18:470][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_6 (AutoDXT)
+[2016.02.07-10.30.19:857][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_6 (AutoDXT)
+[2016.02.07-10.30.20:219][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_5 (DXT1)
+[2016.02.07-10.30.20:771][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_5 (AutoDXT)
+[2016.02.07-10.30.22:239][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_5 (AutoDXT)
+[2016.02.07-10.30.22:842][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_4 (DXT1)
+[2016.02.07-10.30.23:852][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_4 (AutoDXT)
+[2016.02.07-10.30.24:759][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_4 (AutoDXT)
+[2016.02.07-10.30.25:062][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_3 (DXT1)
+[2016.02.07-10.30.25:335][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_3 (AutoDXT)
+[2016.02.07-10.30.26:750][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_3 (AutoDXT)
+[2016.02.07-10.30.27:464][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_2 (DXT1)
+[2016.02.07-10.30.28:409][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.07-10.30.30:244][630]LogTexture:Display: テクスチャをビルド中: SkyOcclusion0_2 (AutoDXT)
+[2016.02.07-10.30.30:850][630]LogTexture:Display: テクスチャをビルド中: LQ_Lightmap_0_1 (DXT1)
+[2016.02.07-10.30.32:105][630]LogTexture:Display: テクスチャをビルド中: HQ_Lightmap0_1 (AutoDXT)
+[2016.02.07-10.30.35:934][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_0 (G8)
+[2016.02.07-10.30.36:657][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_1 (G8)
+[2016.02.07-10.30.37:613][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_2 (G8)
+[2016.02.07-10.30.38:616][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_3 (G8)
+[2016.02.07-10.30.39:376][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_4 (G8)
+[2016.02.07-10.30.39:522][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_6 (G8)
+[2016.02.07-10.30.39:552][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_7 (G8)
+[2016.02.07-10.30.39:584][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_11 (G8)
+[2016.02.07-10.30.39:615][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_18 (G8)
+[2016.02.07-10.30.39:626][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_20 (G8)
+[2016.02.07-10.30.39:657][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_28 (G8)
+[2016.02.07-10.30.39:689][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_29 (G8)
+[2016.02.07-10.30.39:723][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_30 (G8)
+[2016.02.07-10.30.39:734][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_31 (G8)
+[2016.02.07-10.30.39:766][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_32 (G8)
+[2016.02.07-10.30.39:785][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_33 (G8)
+[2016.02.07-10.30.39:794][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_34 (G8)
+[2016.02.07-10.30.39:800][630]LogTexture:Display: テクスチャをビルド中: ShadowMapTexture2D_35 (G8)
+[2016.02.07-10.30.39:909][630]Lightmass on DESKTOP-6H4BEHG: 1:52 min total, 101 ms importing, 5 ms setup, 6.15 sec photons, 1:45 min processing, 0 ms extra exporting [69/69 mappings]. Threads: 7:03 min total, 3:38 min processing.
+[2016.02.07-10.30.40:151][630]LogStaticLightingSystem: Illumination: 1:59 min (31.3 sec encoding lightmaps)
+[2016.02.07-10.30.40:151][630]LogStaticLightingSystem: Lightmap texture memory:  18.0 MB (18.0 MB streaming, 0.0 MB non-streaming), 44 textures
+[2016.02.07-10.30.40:151][630]LogStaticLightingSystem: Shadowmap texture memory: 14.8 MB (14.8 MB streaming, 0.0 MB non-streaming), 18 textures
+[2016.02.07-10.30.41:178][631]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.07-10.30.41:181][631]MapCheck: New page: RollingBPExampleMap - 2016/02/08 4:30:41
+[2016.02.07-10.30.41:186][631]MapCheck:Error: エラー EditorCube17_7 コンポーネントは静的タイプですがライトマップ設定が無効です！間接光は黒になります。主な原因は、ライトマップの解像度が0、LightmapCoordinateIndexが範囲外であることが考えられます。 
+[2016.02.07-10.30.41:186][631]MapCheck:Warning: 警告 EditorCube17_7 スタティックメッシュアクタに NULL のStaticMesh プロパティがあります 
+[2016.02.07-10.30.41:186][631]MapCheck:Warning: 警告 EditorCube17_7 スタティックメッシュアクタに NULL のStaticMesh プロパティがあります 
+[2016.02.07-10.30.41:385][631]MapCheck: 情報 マップチェックが完了: 1 エラー、 2 警告、完了に 204.523ミリ秒かかりました。
+[2016.02.07-10.31.25:270][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.31.25:270][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.31.25:270][806]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:31:25)
+[2016.02.07-10.31.25:271][806]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.31.25:311][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040497s)
+[2016.02.07-10.31.25:312][806]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.31.25:312][806]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2016.02.07-10.31.25:313][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.042177s)
+[2016.02.07-10.31.25:373][806]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.31.25:380][806]LogInit: FAudioDevice initialized.
+[2016.02.07-10.31.25:416][806]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.31.25:424][806]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.31.25
+[2016.02.07-10.31.25:425][806]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.31.25:425][806]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.31.25:425][806]LogWorld: Bringing up level for play took: 0.008261
+[2016.02.07-10.31.25:426][806]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.582のプレイ イン エディタの開始時間
+[2016.02.07-10.31.25:426][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.31.44:517][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.31.44:635][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.31.44:713][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6CE96CA0
+[2016.02.07-10.31.49:511][444]LogSavePackage: Save=3900.840332ms
+[2016.02.07-10.31.49:511][444]LogSavePackage: Moving '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Saved/RollingBPExampleMapD228ED2D424CEAC89C6E1D8F9EA577E3.tmp' to '../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2016.02.07-10.31.49:517][444]LogSavePackage: Total save time: 3932.922643ms
+[2016.02.07-10.31.49:517][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kotaoue/Documents/Unreal Projects/DJYamabiko/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2016.02.07-10.31.49:571][444]LogFileHelpers: Saving map 'RollingBPExampleMap' took 4.090
+[2016.02.07-10.31.54:225][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.31.54:225][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.07-10.31.54:225][539]PIE: New page: PIEセッション: RollingBPExampleMap (2016/02/08 4:31:54)
+[2016.02.07-10.31.54:225][539]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2016.02.07-10.31.54:373][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147109s)
+[2016.02.07-10.31.54:374][539]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2016.02.07-10.31.54:374][539]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2016.02.07-10.31.54:374][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.148263s)
+[2016.02.07-10.31.54:416][539]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.07-10.31.54:421][539]LogInit: FAudioDevice initialized.
+[2016.02.07-10.31.54:457][539]LogWorld: Game class is 'RollingGameMode_C'
+[2016.02.07-10.31.54:466][539]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2016.02.07-19.31.54
+[2016.02.07-10.31.54:466][539]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.31.54:466][539]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.07-10.31.54:467][539]LogWorld: Bringing up level for play took: 0.008903
+[2016.02.07-10.31.54:468][539]PIE: 情報 /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.46のプレイ イン エディタの開始時間
+[2016.02.07-10.31.54:468][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.32.07:435][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.32.07:469][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2016.02.07-10.32.07:509][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D07771C60
+[2016.02.07-10.32.07:662][955]Cmd: QUIT_EDITOR
+[2016.02.07-10.32.08:087][955]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.02.07-10.32.08:087][955]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.02.07-10.32.08:163][955]LogExit: Preparing to exit.
+[2016.02.07-10.32.09:510][955]LogExit: Editor shut down
+[2016.02.07-10.32.09:512][955]LogExit: Transaction tracking system shut down
+[2016.02.07-10.32.09:514][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D32BD1260
+[2016.02.07-10.32.09:517][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D2FE35260
+[2016.02.07-10.32.09:518][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D44D8F880
+[2016.02.07-10.32.09:518][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D559DB1A0
+[2016.02.07-10.32.09:779][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023D6CB0C4A0
+[2016.02.07-10.32.09:779][955]LogExit: Object subsystem successfully closed.
+[2016.02.07-10.32.09:806][955]LogD3D11RHI: Shutdown
+[2016.02.07-10.32.09:806][955]LogD3D11RHI: CleanupD3DDevice
+[2016.02.07-10.32.10:047][955]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.07-10.32.10:060][955]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.02.07-10.32.10:060][955]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.02.07-10.32.10:060][955]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.07-10.32.10:060][955]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.07-10.32.10:060][955]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.07-10.32.10:060][955]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.07-10.32.10:087][955]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.07-10.32.10:092][955]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.07-10.32.10:093][955]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.07-10.32.10:093][955]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.07-10.32.10:093][955]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.07-10.32.10:093][955]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.07-10.32.10:093][955]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.07-10.32.10:093][955]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.07-10.32.11:018][955]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.07-10.32.11:018][955]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.07-10.32.11:018][955]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.07-10.32.11:018][955]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.07-10.32.11:018][955]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.07-10.32.11:019][955]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.07-10.32.11:020][955]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.07-10.32.11:020][955]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.07-10.32.11:021][955]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.07-10.32.11:021][955]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.07-10.32.11:021][955]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.07-10.32.11:021][955]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.07-10.32.11:022][955]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.07-10.32.11:022][955]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.07-10.32.11:022][955]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.07-10.32.11:022][955]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.07-10.32.11:022][955]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.07-10.32.11:022][955]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.07-10.32.11:023][955]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.07-10.32.11:023][955]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.07-10.32.11:023][955]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.07-10.32.11:023][955]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.07-10.32.11:023][955]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.07-10.32.11:023][955]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.07-10.32.11:024][955]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.07-10.32.11:025][955]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.07-10.32.11:025][955]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.07-10.32.11:026][955]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.07-10.32.11:026][955]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.07-10.32.11:026][955]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.07-10.32.11:026][955]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.07-10.32.11:026][955]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.07-10.32.11:026][955]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.07-10.32.11:182][955]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.07-10.32.11:216][955]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.07-10.32.11:216][955]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.07-10.32.11:217][955]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.07-10.32.11:243][955]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.07-10.32.11:243][955]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.07-10.32.11:243][955]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.07-10.32.11:243][955]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.07-10.32.11:243][955]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.07-10.32.11:243][955]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.07-10.32.11:244][955]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.07-10.32.11:245][955]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.07-10.32.11:247][955]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.07-10.32.11:409][955]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.07-10.32.11:411][955]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.07-10.32.11:411][955]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.07-10.32.11:512][955]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.07-10.32.11:512][955]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.07-10.32.11:512][955]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.07-10.32.11:529][955]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.07-10.32.11:529][955]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.07-10.32.11:529][955]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.07-10.32.11:529][955]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.07-10.32.11:529][955]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.07-10.32.11:529][955]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.07-10.32.11:530][955]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.07-10.32.11:531][955]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.07-10.32.11:531][955]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.07-10.32.11:533][955]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.07-10.32.11:534][955]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.07-10.32.11:630][955]LogDerivedDataCache: Shutdown
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.07-10.32.11:630][955]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.07-10.32.11:631][955]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.07-10.32.13:637][955]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.07-10.32.13:637][955]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.07-10.32.13:637][955]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.07-10.32.13:639][955]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.07-10.32.13:639][955]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.07-10.32.13:639][955]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.07-10.32.13:639][955]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.07-10.32.13:711][955]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.07-10.32.13:714][955]LogExit: Exiting.
+[2016.02.07-10.32.13:748][955]Log file closed, 02/07/16 19:32:13
