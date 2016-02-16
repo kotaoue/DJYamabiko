@@ -45,3 +45,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#user add
+*.apk
+*.log
+Intermediate/
+Android/
+Android_ATC/
+Saved/Autosaves/
+Saved/Backup/
+Saved/Cooked/
+Saved/Logs/
+Saved/Stats/
